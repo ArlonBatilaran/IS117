@@ -91,6 +91,76 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+    background-color: gray;
+}
+#wrapper{
+    Background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width:980px;
+}
+
+#primary_links li{
+    display: inline;    
+}
+#primary_links a{
+        color: white;
+}
+#primary_links{
+    background-color: #3f8252;
+    Height:72px;
+    line-height: 72px;
+    text-align: center;
+    word-spacing: 80px;
+    
+}
+
+#primary_links ul{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+#branding{
+    height: 85px;
+    
+}
+#acclogo img{
+    margin-left: 300px;
+    
+}
+#subhead1{
+    line-height: 1%;
+    height: 50px;
+}
+#p1{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: "Open Sans", sans-serif, serif;
+}
+
+#p2{
+    text-align: center;
+    font-size: small;
+    font-family: "Open Sans", sans-serif, serif;
+}
+
+#p3{
+    text-align: center;
+    font-size: larger;
+    font-family: "Open Sans", sans-serif, serif;
+    color: #3f8252;
+    
+}
+#vid1{
+   text-align: center;
+}
+
+
+
+
+
+    
 
 
 
