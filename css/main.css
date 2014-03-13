@@ -92,7 +92,7 @@ textarea {
    ========================================================================== */
 
 body{
-    background-color: gray;
+    background-color: #eef1f5;
 }
 #wrapper{
     Background-color: white;
@@ -106,6 +106,7 @@ body{
 }
 #primary_links a{
         color: white;
+        text-decoration: none;
 }
 #primary_links{
     background-color: #3f8252;
@@ -128,33 +129,210 @@ body{
     margin-left: 300px;
     
 }
+#content{
+    position: relative;
+}
 #subhead1{
     line-height: 1%;
     height: 50px;
 }
+
 #p1{
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
-    font-family: "Open Sans", sans-serif, serif;
+    font-family: "OpenSans", sans-serif, serif;
 }
 
 #p2{
     text-align: center;
     font-size: small;
-    font-family: "Open Sans", sans-serif, serif;
+    font-family: "OpenSans", sans-serif, serif;
 }
 
 #p3{
     text-align: center;
-    font-size: larger;
-    font-family: "Open Sans", sans-serif, serif;
+    font-size: large;
+    font-family: "OpenSans", sans-serif, serif;
     color: #3f8252;
+    letter-spacing: 10px;
     
 }
 #vid1{
    text-align: center;
+   height: 350px;
 }
+
+#fbbar{
+    background-color: #4c6498;
+    Height:50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius:5px;
+    
+}
+#fb01 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#fb02 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#fblike{
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    font-weight: bold;
+    color: white;
+    
+}
+#fblike2{
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: white;
+}
+
+#fbbar iframe{
+    margin-top: 15px;
+    margin-right: 50px;
+}
+#description1{
+    float: left;
+    width: 490px;
+    font-size: small;
+    margin-left: 10px;
+}
+#cont1 p {
+    font-size: small;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+#cont1 ul{
+    float: left;
+    width: 490;
+    font-size: small;
+}
+#empty{
+    clear: both;
+}
+
+#cool{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: white;
+    width: 240px;
+    background-color: #2980b9;
+    line-height: 2.429;
+    text-align: center;
+    -moz-transform: matrix( 0,-1,1,0,0,0);
+    -webkit-transform: matrix( 0,-1,1,0,0,0);
+    -ms-transform: matrix( 0,-1,1,0,0,0);
+    position: absolute;
+    left: -88px;
+    top: 840px;
+    
+}
+#heat{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: white;
+    width: 150px;
+    background-color: #c0392b;
+    line-height: 2.429;
+    text-align: center;
+    -moz-transform: matrix( 0,-1,1,0,0,0);
+    -webkit-transform: matrix( 0,-1,1,0,0,0);
+    -ms-transform: matrix( 0,-1,1,0,0,0);
+    position: absolute;
+    left: -43px;
+    top: 1036px;
+  
+}
+#content table{
+    width: 900px;
+    margin-left: 50px;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-top-color: white;
+}
+#content th{
+    background-color:#7f8c8d;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: lighter;
+    border-color: white;
+}
+#content td{
+    text-align: left;
+    padding: 10px;
+    font-size: small;
+    background-color: #f7f7f7;
+    border-color: white;
+}
+
+#heating {
+    background-color: #eef1f5;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#heating h1{
+    color: #cc6a61;
+    text-align: center;
+}
+#heating p{
+    text-align: center;
+    
+    
+}
+
+#heatingpics{
+    text-align: center;
+}
+#cooling {
+    background-color: white;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cooling h1{
+    color: #70aad0;
+    text-align: center;
+}
+#cooling p{
+    text-align: center; 
+}
+
+#coolingpics{
+    text-align: center;
+}
+#aboutus {
+    background-color: #eef1f5;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aboutus h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#aboutus p{
+    text-align: center; 
+}
+
+#aboutpics{
+    text-align: center;
+}
+
 
 
 
