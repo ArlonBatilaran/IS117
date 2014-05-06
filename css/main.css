@@ -92,10 +92,12 @@ textarea {
    ========================================================================== */
 
 body{
-    background-color: #eef1f5;
+    background-color: #fdd1ab;
 }
 #wrapper{
     Background-color: white;
+    background-image: url("http://web.njit.edu/~atb4/hb5/img/bubble.png");
+    box-shadow: 4px 0 2px #888888,  -4px 0 2px #888888; 
     margin-left: auto;
     margin-right: auto;
     width:980px;
@@ -109,11 +111,11 @@ body{
         text-decoration: none;
 }
 #primary_links{
-    background-color: #3f8252;
-    Height:72px;
-    line-height: 72px;
+    background-color: #28398a;
+    Height:60px;
+    line-height: 60px;
     text-align: center;
-    word-spacing: 80px;
+    word-spacing: 10px;
     
 }
 
@@ -154,18 +156,27 @@ body{
     text-align: center;
     font-size: large;
     font-family: "OpenSans", sans-serif, serif;
-    color: #3f8252;
+    color: #2d539c;
     letter-spacing: 10px;
     
 }
 #vid1{
-   text-align: center;
+   float: left;
+   margin-left: 30px;
+   height: 350px;
+}
+#vid2{
+   float: left;
+   margin-left: 10px;
    height: 350px;
 }
 
 #fbbar{
+    clear: both;
     background-color: #4c6498;
     Height:50px;
+    margin-left: 200px;
+    margin-right: 200px;
     line-height: 50px;
     text-align: center;
     border-radius:5px;
@@ -185,22 +196,15 @@ body{
     float: left;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 120px;
+    margin-left: 10px;
     font-weight: bold;
     color: white;
     
 }
-#fblike2{
-    float: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 5px;
-    color: white;
-}
 
 #fbbar iframe{
     margin-top: 15px;
-    margin-right: 50px;
+    margin-right: 2px;
 }
 #description1{
     float: left;
