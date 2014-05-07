@@ -92,7 +92,9 @@ textarea {
    ========================================================================== */
 
 body{
-    background-color: #fdd1ab;
+   background-image: url("http://web.njit.edu/~atb4/hb5/img/webbackground.png");
+   background-repeat:repeat-x;
+   background-attachment:fixed;
 }
 #wrapper{
     Background-color: white;
@@ -111,7 +113,8 @@ body{
         text-decoration: none;
 }
 #primary_links{
-    background-color: #28398a;
+    background-color: #3951c6;
+    border: outset #28398a;
     Height:60px;
     line-height: 60px;
     text-align: center;
@@ -124,8 +127,8 @@ body{
     margin-bottom:0px;
 }
 #branding{
-    height: 85px;
-    
+    height: 145px;
+    background-color: #28398a; 
 }
 #acclogo img{
     margin-left: 300px;
@@ -206,49 +209,37 @@ body{
     margin-top: 15px;
     margin-right: 2px;
 }
-#description1{
-    float: left;
-    width: 490px;
-    font-size: small;
-    margin-left: 10px;
+#gamelist h3{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: blue;
 }
-#cont1 p {
-    font-size: small;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 0px;
+#gamelist p{
+    margin-left: 50px;
 }
-#cont1 ul{
-    float: left;
-    width: 490;
-    font-size: small;
-}
-#empty{
-    clear: both;
-}
-
-#cool{
+#ps3{
     font-size: 14px;
     font-family: "OpenSans";
     color: white;
-    width: 240px;
-    background-color: #2980b9;
+    width: 158px;
+    background-color: #003791;
     line-height: 2.429;
     text-align: center;
     -moz-transform: matrix( 0,-1,1,0,0,0);
     -webkit-transform: matrix( 0,-1,1,0,0,0);
     -ms-transform: matrix( 0,-1,1,0,0,0);
     position: absolute;
-    left: -88px;
-    top: 840px;
+    left: -47px;
+    top: 771px;
     
 }
-#heat{
+#xbox{
     font-size: 14px;
     font-family: "OpenSans";
     color: white;
     width: 150px;
-    background-color: #c0392b;
+    background-color: #22973e;
     line-height: 2.429;
     text-align: center;
     -moz-transform: matrix( 0,-1,1,0,0,0);
@@ -256,7 +247,23 @@ body{
     -ms-transform: matrix( 0,-1,1,0,0,0);
     position: absolute;
     left: -43px;
-    top: 1036px;
+    top: 926px;
+  
+}
+#dslog{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: white;
+    width: 120px;
+    background-color: #349ec8;
+    line-height: 2.429;
+    text-align: center;
+    -moz-transform: matrix( 0,-1,1,0,0,0);
+    -webkit-transform: matrix( 0,-1,1,0,0,0);
+    -ms-transform: matrix( 0,-1,1,0,0,0);
+    position: absolute;
+    left: -28px;
+    top: 1063px;
   
 }
 #content table{
@@ -267,74 +274,114 @@ body{
     border-bottom-color: white;
     border-top-color: white;
 }
+
 #content th{
-    background-color:#7f8c8d;
+    background-color:#2d539c;
     color: white;
     padding: 10px;
     font-size: x-large;
     font-weight: lighter;
     border-color: white;
 }
+
+#content tr:nth-child(even) {
+    background-color: #e7f1f7;
+}
 #content td{
     text-align: left;
     padding: 10px;
     font-size: small;
-    background-color: #f7f7f7;
     border-color: white;
 }
 
-#heating {
-    background-color: #eef1f5;
-    height: 350px;
-    margin-left: auto;
-    margin-right: auto;
+#ps3content{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 880px;
+    border: outset thick;
+    border-color:#2b62c4; 
 }
-#heating h1{
-    color: #cc6a61;
-    text-align: center;
+#ps3inside{
+    background-image: url("http://web.njit.edu/~atb4/hb5/img/bubble.png");
+    height:300px;
+    width:560px;
+    float:left; 
 }
-#heating p{
-    text-align: center;
-    
-    
-}
-
-#heatingpics{
-    text-align: center;
-}
-#cooling {
-    background-color: white;
-    height: 350px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#cooling h1{
-    color: #70aad0;
-    text-align: center;
-}
-#cooling p{
-    text-align: center; 
+#ps3inside p{
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
-#coolingpics{
-    text-align: center;
+#ps3pic img {
+    margin-top: 25px;
+    margin-left: 25px;
 }
-#aboutus {
-    background-color: #eef1f5;
+
+#xboxcontent{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 880px;
+    border: outset thick;
+    border-color:#26863d; 
+}
+#xboxinside{
+    background-image: url("http://web.njit.edu/~atb4/hb5/img/bubble.png");
+    height:300px;
+    width:560px;
+    float:left; 
+}
+#xboxinside p{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#xboxpic img {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#dscontent{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 880px;
+    border: outset thick;
+    border-color:#3591b5; 
+}
+#dsinside{
+    background-image: url("http://web.njit.edu/~atb4/hb5/img/bubble.png");
+    height:300px;
+    width:560px;
+    float:left; 
+}
+#dsinside p{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#dspic img {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#about{
+    background-color: #344ab6;
     margin-left: auto;
     margin-right: auto;
 }
-#aboutus h1{
+#about h1{
     text-align: center;
     font-family: sans-serif;
     font-weight: lighter;
+    color:#ffffff;
 }
-#aboutus p{
-    text-align: center; 
+#about p{
+    text-align: center;
+    color:#ffffff;
 }
 
 #aboutpics{
     text-align: center;
+    background-color:#28398a;
 }
 
 
